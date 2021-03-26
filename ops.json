@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "f8afeec8-2e73-32cd-af39-b37047c010a9",
+    "name": "Demon_Skorosti",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "acdc11e9-ee76-314f-9580-e9c318895412",
+    "name": "Shekatyn",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "7a88ad99-f75c-3699-ab3a-80d9b82092ba",
+    "name": "Doctor_Cocktor",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

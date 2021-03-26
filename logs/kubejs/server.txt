@@ -1,0 +1,32 @@
+[08:07:24] [INFO] Loaded script server_scripts:tags.js in 0.058 s
+[08:07:24] [INFO] Loaded script server_scripts:missed_recipes.js in 0.014 s
+[08:07:24] [INFO] Loaded script server_scripts:conflicts.js in 0.04 s
+[08:07:24] [INFO] Loaded script server_scripts:tooltips.js in 0.003 s
+[08:07:24] [INFO] Loaded script server_scripts:balancing.js in 0.039 s
+[08:07:24] [INFO] Loaded script server_scripts:modern_industrialization.js in 0.005 s
+[08:07:24] [INFO] Loaded script server_scripts:qol.js in 0.014 s
+[08:07:24] [INFO] Loaded script server_scripts:indrev.js in 0.004 s
+[08:07:24] [INFO] Loaded script server_scripts:unification.js in 0.05 s
+[08:07:24] [INFO] Tech Reborn is present, loading Compressor compatibility recipes with Industrial Revolution.
+[08:07:24] [INFO] Loaded script modpack:kubejs/compressor_tech_reborn_compat.js in 0.058 s
+[08:07:24] [INFO] Tech Reborn is present, loading Infuser compatibility recipes with Industrial Revolution.
+[08:07:24] [INFO] Loaded script modpack:kubejs/infuser_tech_reborn_compat.js in 0.018 s
+[08:07:24] [INFO] Applied Energistics 2 is present, loading Pulverizer compatibility recipes with Industrial Revolution.
+[08:07:24] [INFO] Loaded script modpack:kubejs/pulverizer_ae2_compat.js in 0.004 s
+[08:07:24] [INFO] Tech Reborn is present, loading Pulverizer compatibility recipes with Industrial Revolution.
+[08:07:24] [INFO] Loaded script modpack:kubejs/pulverizer_tech_reborn_compat.js in 0.02 s
+[08:07:24] [INFO] Tech Reborn is present, loading Shaped Recipes compatibility recipes with Industrial Revolution.
+[08:07:24] [INFO] Loaded script modpack:kubejs/shaped_tech_reborn_compat.js in 0.007 s
+[08:07:24] [INFO] Loaded 14/14 KubeJS server scripts in 0.367 s
+[08:07:24] [INFO] Scripts loaded
+[08:07:24] [INFO] Scanning recipes...
+[08:07:30] [INFO] [blocks] Found 303 tags, added 0 objects, removed 0 objects
+[08:07:30] [INFO] [items] Found 1059 tags, added 42 objects, removed 0 objects
+[08:07:30] [INFO] [fluids] Found 3 tags, added 0 objects, removed 0 objects
+[08:07:30] [INFO] [entity_types] Found 16 tags, added 0 objects, removed 0 objects
+[08:07:31] [WARN] Failed to parse recipe 'harvest_scythes:cincinnasite_scythe_diamond[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'harvest_scythes:cincinnasite_scythe'
+[08:07:31] [WARN] Failed to parse recipe harvest_scythes:cincinnasite_scythe_diamond[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'harvest_scythes:cincinnasite_scythe'
+[08:07:38] [WARN] Error parsing recipe indrev:fluid_infusing/paper[indrev:fluid_infuse]: {"type":"indrev:fluid_infuse","ingredients":[{"ingredient":{"item":"techreborn:saw_dust"},"count":3}],"fluidInput":{"fluid":"minecraft:water","type":"bottle","count":1},"output":{"item":"minecraft:paper","count":3},"processTime":200}: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
+[08:07:38] [WARN] Error parsing recipe indrev:compressing/empty_upgrade[indrev:compress]: {"type":"indrev:compress","ingredients":{"ingredient":{"item":"techreborn:tin_plate"},"count":4},"output":{"item":"indrev:empty_upgrade","count":1},"processTime":300}: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
+[08:07:38] [WARN] Error parsing recipe indrev:compressing/planks[indrev:compress]: {"type":"indrev:compress","ingredients":{"ingredient":{"item":"techreborn:saw_dust"},"count":4},"output":{"item":"indrev:planks","count":1},"processTime":300}: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
+[08:07:39] [INFO] [functions] Found 0 tags, added 0 objects, removed 0 objects
